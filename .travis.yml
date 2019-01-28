@@ -1,0 +1,14 @@
+language: ruby
+rvm:
+- 2.6.0
+- 2.5.3
+- 2.4.5
+- 2.3.8
+deploy:
+  provider: rubygems
+  api_key:
+    secure: DuxV+MkvqDsABI7zaStvQ5L97Wt/a3ShpVKYp2UWErQvGPt3ZeEfFek/8pIdYEKbfFbOMpLWvjHDWdgXIEE2R3jD1QBtigkjlhrYymNLoTuovovjK3pFodF98Ed28r8YFNM3JXwhcuwj8JHBhPqwjO8vy1NrK3ahzbyPeV+bWg641jN5dTTO0pZXn/y07nhdPtD3410sJ0RxM7//pjuqUnazuDI7nmoIYtiwgp8hAvlROK5dfkWe/ZUzanj3c0oScqXn1bjKalvHV3BMJ+Xn7MIT6EKRJKbH1PPZpA5M3qCHLQYJgwBgZ7yfKSkub5Lqy5Hd8rYRvNdiVtzbEMAL5sXDGL9lKfoT4XG5cJrRuOe6jUDMJAocVbcSNYZRybSBpMmTM4kr1LNwitU1oChrOL2FQODctQVFkuvwRp+fbkVSOja2WDDUjh7UKh2cjgSyh/w5v8mxRLvBXWFCUSNHJ7sqtXpJAPTXTelmvaTZu8umSrhHj/fOlq+2+RpNj4ixyA3blJDncL6cV02CX3QHHETHcmIVHpoDDIFrELgW4GiS8T9ezi/CC1MEdHxsEN8jM3Pu11VjTcN/d0ZS2gzVuK/8myG544ytVom8jGjSbMq3DLtC33cCWMNCyYy2Z9zvxugZ+E6NzzNBOkMRFLjshBCByMNSjYzN4WF+5o2Lqtg=
+  gem: sparse_include
+  on:
+    tags: true
+    repo: v-kolesnikov/sparse_include
